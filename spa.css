@@ -1,0 +1,318 @@
+.menu1 img{
+    width: 90px;
+    height: 60px;
+}
+html{
+    scroll-behavior: smooth;
+  }
+.menu1 nav{
+    background-color: rgb(228, 68, 143);
+}
+.menu1 span{
+   
+    display: inline-flex;
+}
+/* .menu1 .hover1:hover{
+    color: green;
+    background-color: red;
+    border-radius: 50px;
+   
+} */
+.menu1 li:hover{
+    background-color: rgb(156, 13, 73);
+    
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom: 2px solid rgb(241, 245, 241);
+}
+.menu1 li{
+    margin-left: 50px;
+}
+.bg1 img{
+    width: 100%;
+    height: 650px;
+}
+.bg1 .caption1{
+    position:absolute;
+    top: 206px;
+}
+ .bg1 .caption1 button{
+    background-color: rgb(228, 29, 112);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: white;
+    border: 2px solid rgb(247, 250, 247);
+   
+} 
+
+
+
+ .caption1 button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(240, 33, 119);
+   
+
+} 
+.bg1 .indi2 li{
+width: 40px;
+height: 20px;
+/* border-radius: 10px; */
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+background-color: rgb(240, 33, 119);
+}
+.bg1 .indi2 .active{
+background-color: white;
+border: 2px solid rgb(240, 33, 119);
+}
+ 
+.about1 h1{
+    
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+    color: rgb(78, 77, 77);
+}
+.about2{
+    background-position: right center; 
+    background-image: url(abou1.png);
+   
+    /* height: 520px; */
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.row1 i{
+    margin-left: 57px;
+    font-size: 52px;
+    color: pink;
+}
+/* .services1 img{
+    width: 536px;
+    height: 340px;
+} */
+.appointment1 {
+    width: 100%;
+    height: auto;
+    background-color: rgb(247, 197, 218);
+}
+.appointment1 input{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 2px solid rgb(63, 61, 61);
+    height: 50px;
+}
+.appointment1 textarea{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 2px solid rgb(63, 61, 61);
+}
+.appointment1 .btn1{
+    text-align: center;
+    
+}
+.appointment1 button{
+    background-color: rgb(240, 33, 119);
+    border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+.appointment1 button:hover{
+    background-color: rgb(253, 253, 253);
+    color: rgb(36, 35, 35);
+}
+.news1 {
+    background-image: url(news.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+   
+}
+.news1 .row2 button{
+    height: 36px;
+    margin-top: -38px;
+    width: 75px;
+    position: relative;
+    top: 1px;
+}
+
+    .ts2 .indi2 li{
+       position: relative;
+       top: 66px;
+        width: 30px;
+        height: 15px;
+        /* border-radius: 10px; */
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background-color: rgb(240, 33, 119);
+        }
+
+        .ts2 .indi2 .active{
+        background-color: white;
+        border: 2px solid rgb(240, 33, 119);
+        }
+
+ .contact1 {
+     background-color: rgb(233, 165, 193);
+     color: white;
+ }  
+ 
+ .icon1  i{
+     font-size: 28px;
+     color: rgb(39, 38, 38);
+     
+     text-align: center;  
+ }  
+ .icon1 p{
+    color: rgb(39, 38, 38);
+ }
+ .icon1 i:hover{
+color: rgb(240, 33, 119);
+ }   
+         
+.foot2{
+    color: white;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(148, 142, 142);
+}
+.foot2 ul{
+    color: silver;
+    padding-top: 70px;
+    word-spacing: 50px;
+    text-align: center;
+}
+.foot2 ul i{
+  padding-top: 3px;
+    width: 50px;
+        height: 25px;
+        /* border-radius: 10px; */
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background-color: white;
+}
+.foot2 ul i:hover{
+background-color: rgb(48, 48, 175);
+}
+
+.overlay {
+    left: 29px;
+    right: 0;
+    background-color: rgba(189, 54, 54,0.5);
+    overflow: hidden;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    
+   
+    
+    transform: scale(0);
+   
+    transition: 0.3s ease;
+  }
+  
+  .overlay1:hover .overlay {
+  
+    transform: scale(1);
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    
+    border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    background-color: rgb(110, 51, 51);
+  }
+
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+    border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+  background-color: rgb(240, 33, 119);
+  color: white;
+  padding: 16px 20px;
+  z-index: 9;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 150px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: rgb(197, 109, 109);
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+  border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+/*media*/
+/* @media (max-width:600px){
+    .services1 img{
+        width: 193px;
+        height: 415px;
+    }
+} */
